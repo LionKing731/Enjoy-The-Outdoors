@@ -8,27 +8,89 @@ body{
 #header{
     text-align: center;
     width: 100%;
-    height: 700px;
-    background-image: url('../images/aestheticImages/homeBanner.gif');
-    background-position: center;
+    height: 600px;
+    background-image: url('../images/aestheticImages/destinationSix.jpeg');
+    background-position: right 35% top 25%;
     background-size: cover;
-    border-bottom: 1px solid #9A9DDB;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid beige;
+    position: relative;
+}
+
+#header-title{
+    position:absolute;
+    left: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-title h1{
+    color: #98eff1;
+    text-shadow: 2px 2px #9198e5;
+    font-size: 4rem;
+    font-family: 'Poetsen One';
 }
 
 #title{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 700px;
+    position: relative;
+    border-bottom: 1px solid beige;
 }
 
-#title h1{
-    color: #51AFDB;
-    text-shadow: 2px 2px #7751DB;
-    font-size: 6rem;
-    font-family: 'Poetsen One';
+.carousel-inner .carousel-item{
+    height: 700px;
+
 }
 
-#the{
+.d-block{
+   height: 700px;
+   width: 100%;
+}
+
+
+#sec-two{
+    height: 889px;
+    background: linear-gradient(#98eff1, #9198e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sec-two-cont{
+    width: 100%;
+    height: 790px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid red;
+}
+
+.arrows-img{
+    height: 700px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+#carousel-two-cont{
+    height: 650px;
+    width: 500px;
+}
+
+.c-img-two{
+    border: 1px solid black;
+    height: 600px;
+    width: 100%;
+}
+
+#carousel-title{
+    height: 40px;
+    text-align: center;
+    font-size: 2rem;
     font-family: 'Poetsen One';
 }
