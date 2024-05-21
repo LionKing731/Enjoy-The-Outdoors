@@ -13,3 +13,18 @@ const parkTypesArray = [
     "Trail",
     "Parkway"
 ]
+document.addEventListener("DOMContentLoaded", ()=>{
+
+    const parkRadio = document.getElementById("parkType");
+    
+
+    for(let i = 0; i < parkTypesArray.length; i++){
+        const option = document.createElement("option");
+
+        option.innerText = parkTypesArray[i];
+        parkRadio.appendChild(option);
+    }
+
+    
+})
+

@@ -55,3 +55,18 @@ const locationsArray = [
     "Wisconsin",
     "Wyoming"
 ]
+
+function option(text){
+    const o = document.createElement("option");
+    o.innerText = text;
+    return o;
+}
+
+document.addEventListener("DOMContentLoaded", ()=>{
+
+   const locationSelect = document.getElementById("locations")
+
+    locationsArray.map(option).forEach(o => locationSelect.appendChild(o));
+
+
+})

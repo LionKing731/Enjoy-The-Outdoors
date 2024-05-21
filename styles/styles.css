@@ -1,0 +1,34 @@
+body{
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 247, 249);
+}
+
+#header{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    background-image: url('../images/aestheticImages/homeBanner.gif');
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #9A9DDB;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#title h1{
+    color: #51AFDB;
+    text-shadow: 2px 2px #7751DB;
+    font-size: 6rem;
+    font-family: 'Poetsen One';
+}
+
+#the{
+    font-family: 'Poetsen One';
+}

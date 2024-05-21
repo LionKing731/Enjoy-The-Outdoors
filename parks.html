@@ -17,16 +17,21 @@
 
 <body>
 
+    <a href="index.html">HOME</a>
+    <a href="mountains.html">MOUNTAINS</a>
+
     <h1>Parks</h1>
     <h3>Search By: </h3>
-    <label><input type="radio" name="searchBy" id="locationRadio">Location(State)</label>
+    <label><input type="radio" name="searchBy" id="locationRadio" checked>Location(State)</label>
     <br>
     <label><input type="radio" name="searchBy" id="parkTypeRadio">Park Type</label>
     <div class="filters">
-       <label id="locationLabel">Location: <select name="location" id="location"></select></label>
-       <label id="parkTypeLabel">Park Type: <select name="parkType" id="parkType"></select></label>
+       <label id="locationLabel">Location: <select name="location" id="locations"><option>Select One...</option></select></label>
+       <label id="parkTypeLabel" style="display: none;">Park Type: <select name="parkType" id="parkType"><option>Select One...</option></select></label>
     </div>
-    <div id="results">?</div>
+    <div id="results">
+        <!-- <table id="results"></table> -->
+    </div>
 
 </body>
 </html>
