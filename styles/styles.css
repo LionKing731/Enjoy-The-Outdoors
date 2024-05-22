@@ -9,12 +9,24 @@ body{
     text-align: center;
     width: 100%;
     height: 600px;
-    background-image: url('../images/aestheticImages/destinationSix.jpeg');
+    background-image: url('../images/aestheticImages/yellowstone.webp');
     background-position: right 35% top 25%;
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 1px solid beige;
     position: relative;
+}
+
+.nav-link{
+    color:beige;
+    text-shadow: 2px 2px #3f87a6;
+    font-family: 'Poetsen One';
+    font-size: 2rem;
+}
+
+.nav-link:hover{
+    color: #19058b;
+    text-shadow: 2px 2px beige;
 }
 
 #header-title{
@@ -27,8 +39,8 @@ body{
 }
 
 #header-title h1{
-    color: #98eff1;
-    text-shadow: 2px 2px #9198e5;
+    color: beige;
+    text-shadow: 2px 2px #19058b;
     font-size: 4rem;
     font-family: 'Poetsen One';
 }
@@ -55,26 +67,41 @@ body{
 
 #sec-two{
     height: 889px;
-    background: linear-gradient(#98eff1, #9198e5);
+    /* background: linear-gradient(#98eff1, #9198e5); */
+    background: linear-gradient(#3f87a6, #ebf8e1, #f69d3c);
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-bottom: 1px solid beige;
 }
 
 #sec-two-cont{
     width: 100%;
-    height: 790px;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+
+.sec-two-link{
+    color:beige;
+    text-shadow: 2px 2px #3f87a6;
+    font-family: 'Poetsen One';
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.sec-two-link:hover{
+    color: #19058b;
+    text-shadow: 2px 2px beige;
 }
 
 .arrows-img{
     height: 700px;
     width: 500px;
-    border: 1px solid black;
+    border: 1px solid beige;
+    margin-top: 2.5rem;
 }
 
 #carousel-two-cont{
@@ -83,7 +110,7 @@ body{
 }
 
 .c-img-two{
-    border: 1px solid black;
+    border: 1px solid beige;
     height: 600px;
     width: 100%;
 }
@@ -93,4 +120,128 @@ body{
     text-align: center;
     font-size: 2rem;
     font-family: 'Poetsen One';
+    color: beige;
+    text-shadow: 2px 2px #19058b;
+}
+
+#column-card h3{
+    margin-top: 0.5em;
+    font-size: 2rem;
+    font-family: 'Poetsen One';
+    color: beige;
+    text-shadow: 2px 2px #19058b;
+}
+
+
+#sec-three{
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/aestheticImages/galaxyBackground.webp');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid beige;
+    /* background: linear-gradient(#9198e5, beige); */
+}
+
+#sec-three h3{
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Poetsen One';
+    color: beige;
+    text-shadow: 2px 2px #19058b;
+}
+
+#sec-three-cont{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.picture-card{
+    height: 300px;
+    width: 25%;
+    border: 1px solid #19058b;
+    /* border-radius: 10% 30%; */
+    border-radius: 50%;
+}
+
+#pic-card-one{
+    background-image: url('../images/aestheticImages/destinationOne.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    left: 360px;
+}
+
+#pic-card-two{
+    background-image: url('../images/aestheticImages/destinationTwo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#pic-card-three{
+    background-image: url('../images/aestheticImages/destinationThree.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#pic-card-four{
+    background-image: url('../images/aestheticImages/destinationFour.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0px;
+    right: 360px;
+}
+
+#sec-four{
+    height: 600px;
+
+}
+
+#carousel-three-cont{
+    height: 600px;
+}
+
+.carousel-two .car-item-two{
+    height: 600px;
+}
+
+#sec-five{
+    height: 400px;
+    background: linear-gradient(#f69d3c,#ebf8e1);
+    background-color: beige;
+    border-top: 1px solid beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec-five h3{
+    font-size: 3.5rem;
+    font-family: 'Poetsen One';
+    color: beige;
+    text-shadow: 2px 2px #19058b;
+}
+
+.material-symbols-outlined{
+    font-size: 3.2rem;
+    color:#19058b;
 }
