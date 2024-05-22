@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(#3f87a6, #ebf8e1);
+    height: 200vh;
+    /* background-color: #f69d3c; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    align-items: center;
+    font-size: 3vw;
+    margin: 1rem;
+}
+
+h2, p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1{
+    color: beige;
+    text-shadow: 2px 2px #19058b;
+    font-size: 4rem;
+    font-family: 'Poetsen One';
+}
+
+h2{
+    margin-top: 2rem;
+    font-family: 'Jaro';
+    font-size: 3rem;
+    color: #f69d3c;
+    text-shadow: 2px 2px #ebf8e1;
+    animation: fadeIn 4s;
+
+}
+
+p{
+    color:#ebf8e1;
+    margin: 2rem;
+    font-family: 'Bebas Neue';
+    animation: fadeIn 4s;
+}
+
+img{
+    border-radius: 10%;
+    border: 1px solid beige;
+    display: block;
+    margin: auto;
+    /* width: 70%; */
+    height: 300px;
+    animation: fadeIn 4s;
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Jaro';
+    color: beige;
+}
+
+#mountainSelect{
+    margin-top: 2rem;
+    color:#19058b;
+    background-color: #ebf8e1;
+    border: 1px solid #19058b;
+    font-size: 20px;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

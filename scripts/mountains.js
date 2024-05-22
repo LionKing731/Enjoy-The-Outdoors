@@ -17,7 +17,7 @@ async function getSunsetForMountain(lat, lng){
 
 
 document.addEventListener("DOMContentLoaded", ()=>{
-
+  
 
     const select = document.getElementById("mountainSelect");
 
