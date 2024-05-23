@@ -255,3 +255,48 @@ body{
     font-size: 3.2rem;
     color:#19058b;
 }
+
+@media screen and (width < 1420px){
+    #sec-three-cont{
+        position: static;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #pic-card-one{
+        position: static;
+    }
+
+    #pic-card-two{
+        position: static;
+    }
+    
+
+    #pic-card-three{
+        position: static;
+    }
+    
+
+    #pic-card-four{
+        position: static;
+    }
+    
+}
+
+@media screen and (width < 1090px){
+
+    #sec-two{
+        height: 1550px;
+    }
+
+
+    #sec-two-cont{
+        flex-direction: column;
+    }
+
+
+
+
+
+
+}
