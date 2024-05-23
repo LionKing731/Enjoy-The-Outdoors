@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 info.innerHTML = 
                 `
                     <h2>${mountain.name}</h2>
-                    <p><b>Elevation:</b> ${mountain.elevation}ft.</p>
+                    <p><b><span class="sun">Elevation</span></b> ${mountain.elevation}ft.</p>
                     <p>${mountain.desc}</p>
-                    <p>Sunrise: ${sunData.results.sunrise}</p>
-                    <p>Sunset: ${sunData.results.sunset}</p>
+                    <p><b><span class="sun">Sunrise</span></b> ${sunData.results.sunrise}</p>
+                    <p><b><span class="sun">Sunset</span></b> ${sunData.results.sunset}</p>
                     <img src ="${path}${mountain.img}">
                 
                 `

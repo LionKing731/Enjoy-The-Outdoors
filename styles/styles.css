@@ -64,6 +64,16 @@ body{
    width: 100%;
 }
 
+.car-text-h5, .car-text-p{
+    color:#ebf8e1;
+    font-weight: bold;
+    text-shadow: 1px 1px #3f87a6;
+}
+
+.car-text-h5{
+    font-size: 2rem;
+}
+
 
 #sec-two{
     height: 889px;

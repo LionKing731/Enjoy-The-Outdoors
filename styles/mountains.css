@@ -10,6 +10,7 @@ body{
     align-items: center;
     font-size: 3vw;
     margin: 1rem;
+    /* overflow-y: hidden; */
 }
 
 h2, p{
@@ -17,6 +18,13 @@ h2, p{
     flex-direction: column;
     align-items: center;
     
+}
+
+.mount-link{
+    color:beige;
+    text-shadow: 2px 2px #f69d3c;
+    font-family: 'Poetsen One';
+    font-size: 2rem;
 }
 
 h1{
@@ -41,6 +49,12 @@ p{
     margin: 2rem;
     font-family: 'Bebas Neue';
     animation: fadeIn 4s;
+}
+
+.sun{
+    color: #f69d3c;
+    text-shadow: 1px 1px #ebf8e1;
+    display: inline-block;
 }
 
 img{
