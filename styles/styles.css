@@ -233,8 +233,157 @@ body{
     height: 600px;
 }
 
+#grid{
+    height: 800px;
+    display: grid;
+    grid-template-areas: 
+    "pic1 pic2"
+    "pic3 pic4" ;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid beige;
+    border-bottom: 1px solid beige;
+}
+
+.grid-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    /* border: 2px solid red; */
+}
+
+#grid-one{
+    grid-area: pic1;
+    background-image: url('../images/aestheticImages/gridOne.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#grid-two{
+    grid-area: pic2;
+    background-image: url(../images/aestheticImages/gridTwo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#grid-three{
+    grid-area: pic3;
+    background-image: url('../images/aestheticImages/gridThree.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#grid-four{
+    grid-area: pic4;
+    background-image: url('../images/aestheticImages/gridFour.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-h4, .grid-p{
+    margin-left: 1.5rem;
+    color:beige;
+    text-shadow: 2px 2px #3f87a6;
+    font-family: 'Poetsen One';
+}
+
+.grid-h4{
+    font-size: 1.8rem;
+}
+
+.btn{
+    
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #ebf8e1;
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom-color: rgb(17, 17, 17);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-style:none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(17, 17, 17);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(17, 17, 17);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(17, 17, 17);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: #3f87a6;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Poetsen One";
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-variation-settings: normal;
+    font-weight: 500;
+    height: 36px;
+    justify-content: center;
+    line-height: 24px;
+    margin-left: 1.5rem;
+    margin-right: 6px;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    min-height: 34px;
+    outline-color: rgb(17, 17, 17);
+    outline-style: none;
+    outline-width: 0px;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    position: relative;
+    text-align: center;
+    text-decoration-color: rgb(17, 17, 17);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    vertical-align: top;
+    width: 71.0781px;
+    z-index: 1;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
 #sec-five{
-    height: 400px;
+    height: 200px;
     background: linear-gradient(#f69d3c,#ebf8e1);
     background-color: beige;
     border-top: 1px solid beige;
